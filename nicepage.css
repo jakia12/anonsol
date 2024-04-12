@@ -41202,3 +41202,18 @@ a.u-link.u-text-hover-grey-90:hover {
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
  /*end-variables base-font-size*/
+
+
+ /* audio player */
+ #play,
+#pause {
+	float: left;
+	width: 40px;
+}
+#play:hover,
+#pause:hover {
+	cursor: pointer;
+}
+#pause {
+	display: none;
+}
